@@ -47,7 +47,7 @@ let selectedBoxIndex = null;
     khoangCach = count * 200;
     divBack[index].style.left = khoangCach + "px";
     divBack[index].style.top = distanceTop + "px";
-    divBack[index].style.display = "block";
+    divBack[index].style.display = "none";
   }
 
   function createLabel(index) {
